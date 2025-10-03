@@ -29,7 +29,7 @@
 	// 	}
 	// }
   	// },
-	// "postCreateCommand": "uv sync --frozen",
+	"postCreateCommand": "uv pip install -e .[dev]",
 	"containerEnv": {
 		"UV_LINK_MODE": "copy"
 	}
